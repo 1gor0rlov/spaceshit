@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>s p a c e s h i t .</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/uikit.js"></script>
+  <script src="js/anime.js"></script>
+</head>
+<body>
+
+<!-- particles.js container -->
+<div id="particles-js">
+  <div class="main_container">
+    <div class="uk-flex uk-flex-bottom uk-flex-center main_heading">
+      <h1 class="mb0 dark">s p a c e s h i t .</h1>
+    </div>
+    <div class="uk-flex container">
+      <div class="uk-width-1-2 uk-flex uk-flex-middle box_container">
+        <div class="dark box box1 hvr-shrink uk-flex uk-flex-middle uk-flex-center">
+          <h1 style="">?</h1>
+        </div>
+      </div>
+      <div class="uk-width-1-2 uk-flex uk-flex-middle box_container">
+        <div class="dark box box2 hvr-shrink  uk-flex uk-flex-middle uk-flex-center">
+          <h1 style="">?</h1>
+        </div>
+      </div>
+    </div>
+    <div class="uk-flex container">
+      <div class="uk-width-1-2 uk-flex uk-flex-middle box_container">
+        <div class="dark box box1 hvr-shrink  uk-flex uk-flex-middle uk-flex-center">
+          <h1 style="">?</h1>
+        </div>
+      </div>
+      <div class="uk-width-1-2 uk-flex uk-flex-middle box_container">
+        <div class="dark box box2 hvr-shrink  uk-flex uk-flex-middle uk-flex-center">
+          <h1 style="">?</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+<script type="text/javascript">
+
+$( "div.box" ).click(function() {
+  $( this ).fadeOut(1000).delay(1000).fadeIn( 1000 );
+});
+
+</script>
+</body>
+</html>
